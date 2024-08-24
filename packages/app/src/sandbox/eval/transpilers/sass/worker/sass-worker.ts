@@ -97,7 +97,7 @@ async function compileSass(opts: ISassCompileOptions) {
       const previous = prev === 'stdin' ? path : prev;
 
       // request.path sometimes returns a partially resolved path
-      // See: https://github.com/codesandbox/codesandbox-client/issues/4865
+      // See: https://github.com/nxpkg/codesandbox-client/issues/4865
       const foundPath = await resolveSassUrl({
         url,
         previous,

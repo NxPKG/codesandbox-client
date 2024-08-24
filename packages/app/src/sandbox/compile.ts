@@ -845,7 +845,7 @@ async function compile(opts: CompileOptions) {
           // At this point, the original head was parsed and the files loaded / preloaded.
 
           // TODO: figure out a way to fix this without overriding head changes done by the bundler
-          // Original issue: https://github.com/codesandbox/sandpack/issues/32
+          // Original issue: https://github.com/nxpkg/sandpack/issues/32
           // if (document.head && head) {
           //   document.head.innerHTML = head;
           // }

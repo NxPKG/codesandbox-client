@@ -5,7 +5,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesandbox/codesandbox-client",
+    "url": "https://github.com/nxpkg/codesandbox-client",
     "directory": "packages/codesandbox-api"
   },
   "license": "MIT",

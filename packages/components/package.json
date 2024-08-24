@@ -10,13 +10,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesandbox/codesandbox-client",
+    "url": "https://github.com/nxpkg/codesandbox-client",
     "directory": "packages/components"
   },
   "bugs": {
-    "url": "https://github.com/codesandbox/codesandbox-client/issues"
+    "url": "https://github.com/nxpkg/codesandbox-client/issues"
   },
-  "homepage": "https://github.com/codesandbox/codesandbox-client#readme",
+  "homepage": "https://github.com/nxpkg/codesandbox-client#readme",
   "files": [
     "lib"
   ],

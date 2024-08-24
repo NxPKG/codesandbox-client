@@ -13,7 +13,7 @@ export const buildCrashReport = ({
   errorCode,
 }: IbuildCrashReport): string => {
   const url = new URL(
-    `https://github.com/codesandbox/codesandbox-client/issues/new`
+    `https://github.com/nxpkg/codesandbox-client/issues/new`
   );
   const { name, version, os } = browser();
 

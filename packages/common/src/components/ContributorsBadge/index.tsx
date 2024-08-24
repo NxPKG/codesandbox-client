@@ -43,7 +43,7 @@ export default class ContributorsBadge extends React.Component<Props, State> {
         target="_blank"
         rel="noreferrer noopener"
         onClick={e => e.stopPropagation()}
-        href={`https://github.com/codesandbox/codesandbox-client/commits?author=${username}`}
+        href={`https://github.com/nxpkg/codesandbox-client/commits?author=${username}`}
       >
         <Tooltip
           style={{ display: 'flex' }}

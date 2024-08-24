@@ -452,7 +452,7 @@ export class VSCodeEffect {
     try {
       // After navigation, this mount is already mounted and throws error,
       // which cause that Phonenix is not reconnected, so the file's content cannot be seen
-      // https://github.com/codesandbox/codesandbox-client/issues/4143
+      // https://github.com/nxpkg/codesandbox-client/issues/4143
       this.mountableFilesystem.umount('/home/sandbox/.cache');
     } catch {
       //

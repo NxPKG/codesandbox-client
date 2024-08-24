@@ -28,7 +28,7 @@ share dependencies between these parts.
   backends. Forked from
   [https://github.com/jvilk/BrowserFS](https://github.com/jvilk/BrowserFS), with
   an additional
-  [CodeSandbox backend](https://github.com/codesandbox/codesandbox-client/blob/master/standalone-packages/codesandbox-browserfs/src/backend/CodeSandboxFS.ts).
+  [CodeSandbox backend](https://github.com/nxpkg/codesandbox-client/blob/master/standalone-packages/codesandbox-browserfs/src/backend/CodeSandboxFS.ts).
 
 This version of CodeSandbox is using the production server as source of truth,
 this is specified by the environment variable `LOCAL_SERVER`. If you're working
@@ -75,7 +75,7 @@ To install the project you need to have `yarn` and `node`
 > pull requests from branches on your fork. To do this, run:
 >
 > ```sh
-> git remote add upstream https://github.com/codesandbox/codesandbox-client.git
+> git remote add upstream https://github.com/nxpkg/codesandbox-client.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/master master
 > ```

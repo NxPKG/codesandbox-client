@@ -346,12 +346,12 @@ export class Workbench {
     addBrowserNavigationCommand(
       'codesandbox.help.open-issue',
       'Open Issue on GitHub',
-      'https://github.com/codesandbox/codesandbox-client/issues'
+      'https://github.com/nxpkg/codesandbox-client/issues'
     );
     addBrowserNavigationCommand(
       'codesandbox.help.github',
       'Open Our GitHub Repository',
-      'https://github.com/codesandbox/codesandbox-client'
+      'https://github.com/nxpkg/codesandbox-client'
     );
     addBrowserNavigationCommand(
       'codesandbox.help.twitter',

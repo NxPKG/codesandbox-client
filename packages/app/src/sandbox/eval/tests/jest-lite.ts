@@ -183,7 +183,7 @@ export default class TestRunner {
    *
    * Right now we're making sure to clean the globals up in teardown
    *
-   * Related issue: https://github.com/codesandbox/codesandbox-client/issues/4922
+   * Related issue: https://github.com/nxpkg/codesandbox-client/issues/4922
    */
   setTestGlobals(module: Module) {
     const jsdomWindow = this.dom.window.document.defaultView;

@@ -103,7 +103,7 @@ export type RootQueryType = {
    * single project that does not have an associated team. For a list of all projects for a given
    * repository, see `query projectsByRepository`.
    *
-   * Example (for `https://github.com/codesandbox/test-repo.git`):
+   * Example (for `https://github.com/nxpkg/test-repo.git`):
    *
    * ```gql
    * query project(
@@ -124,7 +124,7 @@ export type RootQueryType = {
    * accessible by the current user (as many as `[# of user teams] + 1`). For information about
    * a project associated with a specific team, see `query project`.
    *
-   * Example (for `https://github.com/codesandbox/test-repo.git`):
+   * Example (for `https://github.com/nxpkg/test-repo.git`):
    *
    * ```gql
    * query projects(
@@ -1819,7 +1819,7 @@ export type RootMutationType = {
    *
    * Returns the scalar `true` on success, and errors otherwise.
    *
-   * Example (for `https://github.com/codesandbox/test-repo.git`)
+   * Example (for `https://github.com/nxpkg/test-repo.git`)
    *
    * ```gql
    * mutation deleteProject(
@@ -1900,7 +1900,7 @@ export type RootMutationType = {
    * project, see the `project` top-level query. For importing a read-only project for a public
    * repository, see the `importReadOnlyProject` mutation.
    *
-   * Example (for `https://github.com/codesandbox/test-repo.git`)
+   * Example (for `https://github.com/nxpkg/test-repo.git`)
    *
    * ```gql
    * mutation importProject(
@@ -1938,7 +1938,7 @@ export type RootMutationType = {
    * repository must be public. For importing private repositories, or importing a repository to
    * a specific team for editing, see the `importProject` mutation.
    *
-   * Example (for `https://github.com/codesandbox/test-repo.git`)
+   * Example (for `https://github.com/nxpkg/test-repo.git`)
    *
    * ```gql
    * mutation importReadOnlyProject(

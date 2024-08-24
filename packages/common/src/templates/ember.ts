@@ -10,7 +10,7 @@ export default new Template(
    * but there are a few tweaks that must be addressed before then.
    *  - Auto-detection of ember-cli projects as node projects,
    *    without requiring a sandbox.config.json
-   *    PR: https://github.com/codesandbox-app/codesandbox-importers/pull/16
+   *    PR: https://github.com/nxpkg-app/codesandbox-importers/pull/16
    *  - Ember-CLI initial build chokes on empty app/styles/app.css file
    *  - A small livereload fix, for proper port detection through the CSB proxy stuff
    *    BUG: https://github.com/ember-cli/ember-cli/issues/8073

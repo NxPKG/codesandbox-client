@@ -52,7 +52,7 @@ export function initializeSettings() {
 
   try {
     // We need to do this to prevent duplicate closing tags in live sessions.
-    // https://github.com/codesandbox/codesandbox-client/issues/3398
+    // https://github.com/nxpkg/codesandbox-client/issues/3398
     // I haven't found another way to fix this, as the TS extension literally listens
     // for edits and checks whether an edit ends with '>'. Then it asks the LSP for the changes
     // and applies them 100ms later. There is no check for cursor or anything else.
@@ -144,7 +144,7 @@ export function installCustomTheme(id: string, name: string, theme: string) {
     license: 'SEE LICENSE IN LICENSE.md',
     repository: {
       type: 'git',
-      url: 'https://github.com/codesandbox/codesandbox-client',
+      url: 'https://github.com/nxpkg/codesandbox-client',
     },
     keywords: [],
     scripts: {

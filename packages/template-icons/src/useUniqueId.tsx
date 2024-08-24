@@ -6,7 +6,7 @@ import { useMemo } from 'react';
  *
  * We need a unique global identifier to avoid name collision when
  * an icon is rendered more than once.
- * https://github.com/codesandbox/codesandbox-templates/issues/4
+ * https://github.com/nxpkg/codesandbox-templates/issues/4
  */
 
 let counter = 0;

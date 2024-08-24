@@ -10,7 +10,7 @@ In order to avoid thousands of requests on the client, to load all extensions fi
 2. Delete the original file (main.min.json);
 3. Load the editor and wait for a few until it loads all dependencies; it might take a few seconds or even a minute;
 4. Go to the browser console and type the following command to copy all extensions: `copy(JSON.stringify(global.fileReads))`
-5. Clone this repository https://github.com/codesandbox/extension-bundle-utils
+5. Clone this repository https://github.com/nxpkg/extension-bundle-utils
 6. Paste the extension content into `src/input/main.json`
 7. Run `yarn start` to minify the file;
 8. Copy `src/input/main.min.json` and it's ready to paste the original file.
