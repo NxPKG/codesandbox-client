@@ -21,7 +21,7 @@ export default new Template(
   'sapper',
   'Sapper',
   'https://sapper.svelte.dev/',
-  'github/codesandbox-app/sapper-template',
+  'github/nxpkg-app/sapper-template',
   decorateSelector(() => '#159497'),
   {
     extraConfigurations: {

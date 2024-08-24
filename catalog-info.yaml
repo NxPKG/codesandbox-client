@@ -4,7 +4,7 @@ metadata:
   name: codesandbox-editor-v1
   description: Codesandbox V1 Editor Frontend
   annotations:
-    github.com/project-slug: codesandbox/codesandbox-client
+    github.com/project-slug: nxpkg/codesandbox-client
     backstage.io/kubernetes-namespace: default
     backstage.io/kubernetes-label-selector: app.kubernetes.io/name=codesandbox,component=client
     codesandbox/deploy-image: codesandbox/client

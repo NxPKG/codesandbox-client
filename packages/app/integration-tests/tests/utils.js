@@ -11,7 +11,7 @@ export function pageLoaded(page) {
 }
 
 function sandboxUrl(sandboxId) {
-  return `http://localhost:3000/#github/codesandbox/integration-sandboxes/tree/master/${sandboxId}`;
+  return `http://localhost:3000/#github/nxpkg/integration-sandboxes/tree/master/${sandboxId}`;
 }
 
 export function loadSandbox(page, sandboxId, timeout) {
