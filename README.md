@@ -26,9 +26,9 @@ sourced.
 - Client: the web application
 - Server: the [Phoenix](https://github.com/phoenixframework/phoenix) API server
 - Nginx: Nginx config files
-- [Git Extractor](https://github.com/nxpkg/codesandbox-importers):
+- [Git Extractor](https://github.com/nxpkg/code-importers):
   responsible for extracting the source from a GitHub repository
-- [CLI](https://github.com/nxpkg/codesandbox-importers/tree/master/packages/cli):
+- [CLI](https://github.com/nxpkg/code-importers/tree/master/packages/cli):
   the CLI to upload a CodeSandbox project from your command line
 
 ## Documentation
