@@ -169,7 +169,7 @@ template for every template. This logic is **not** found in `codesanbox-client`.
 
 This means you that you also have to add your template in another file in the
 `codesandbox-importers` repository called
-[templates.ts](https://github.com/nxpkg/codesandbox-importers/blob/master/packages/import-utils/src/create-sandbox/templates.ts).
+[templates.ts](https://github.com/nxpkg/code-importers/blob/master/packages/import-utils/src/create-sandbox/templates.ts).
 
 When you create your Pull Request in `codesanbox-client`, you also need to
 create a Pull Request in `codesandbox-importer` and reference it in your Pull
@@ -177,9 +177,9 @@ Request for `codesandbox-client`. Example:
 
 - [Add VuePress](https://github.com/nxpkg/codesandbox-client/pull/1652) in
   [codesandbox-client](https://github.com/nxpkg/codesandbox-client)
-- [Add VuePress support](https://github.com/nxpkg/codesandbox-importers/pull/30)
+- [Add VuePress support](https://github.com/nxpkg/code-importers/pull/30)
   in
-  [codesandbox-importer](https://github.com/nxpkg/codesandbox-importers)
+  [codesandbox-importer](https://github.com/nxpkg/code-importers)
 
 ### 5. Test the template
 
